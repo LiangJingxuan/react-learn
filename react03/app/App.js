@@ -5,12 +5,16 @@ class App extends React.Component{
 
 	constructor(){
 		super();
+
+		this.state={
+			d:20
+		}
 	}
 
 	render(){
 		return (
 			<div>
-				<MyCompon id='1912'></MyCompon>
+				<MyCompon id={21}></MyCompon>
 			</div>
 		);
 	}
