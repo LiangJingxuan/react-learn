@@ -1,0 +1,1 @@
+export const changeG = ()=>({type: 'G'});
